@@ -1,4 +1,24 @@
 {
+  "layout": {
+    "header": {
+      "actions": {
+        "coloTheme": "Change the color Mode",
+        "language": "Change the language",
+        "trackOrder": "Track Order",
+        "supplier": "Become a supplier"
+      },
+      "overview": {},
+      "navigation": {}
+    },
+    "footer": {}
+  },
+  "types": {
+    "colorTheme": {
+      "system": "System Mode",
+      "light": "Light Mode",
+      "dark": "Dark Mode"
+    }
+  },
   "keyWords": {
     "loading": "Loading"
   }

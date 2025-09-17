@@ -1,4 +1,24 @@
 {
+  "layout": {
+    "header": {
+      "actions": {
+        "coloTheme": "تغيير وضع الألوان",
+        "language": "تغيير اللغة",
+        "trackOrder": "تتبع الطلبية",
+        "supplier": "كن موردًا"
+      },
+      "overview": {},
+      "navigation": {}
+    },
+    "footer": {}
+  },
+  "types": {
+    "colorTheme": {
+      "system": "وضع النظام",
+      "light": "الوضع الفاتح",
+      "dark": "الوضع الداكن"
+    }
+  },
   "keyWords": {
     "loading": "جار التحميل"
   }
