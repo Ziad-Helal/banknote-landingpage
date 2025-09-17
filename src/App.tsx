@@ -1,6 +1,9 @@
 import { Outlet } from "react-router";
+import { useLocaleListener } from "@/localization";
 
-// For multiple layouts support
 export default function App() {
+  useLocaleListener();
+
+  // For multiple layouts support
   return <Outlet />;
 }
