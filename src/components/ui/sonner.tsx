@@ -1,0 +1,26 @@
+import { useTheme } from "next-themes";
+import { useTranslation } from "react-i18next";
+import { Toaster as Sonner, type ToasterProps } from "sonner";
+
+const Toaster = ({ ...props }: ToasterProps) => {
+  const { i18n } = useTranslation();
+  const { theme = "system" } = useTheme();
+
+  return (
+    <Sonner
+      theme={theme as ToasterProps["theme"]}
+      className="toaster group"
+      style={
+        {
+          "--normal-bg": "var(--popover)",
+          "--normal-text": "var(--popover-foreground)",
+          "--normal-border": "var(--border)",
+        } as React.CSSProperties
+      }
+      dir={i18n.dir()}
+      {...props}
+    />
+  );
+};
+
+export { Toaster };

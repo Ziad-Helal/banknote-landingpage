@@ -1,3 +1,18 @@
 export const routes = {
   home: "/",
+  categories: "/categories",
+  products: "/products",
+  compare: "/compare",
+  wishlist: "/wishlist",
+  cart: "/cart",
+  orders: "/orders",
+  trackOrder: "/track_order",
+  address: "/address",
+  supplier: "/supplier",
+  account: "/account",
+  about: "/about",
+  contactUs: "/contact",
+  faqs: "/faqs",
+  terms: "/terms",
+  privacy: "/privacy",
 };

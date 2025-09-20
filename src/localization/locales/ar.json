@@ -1,16 +1,191 @@
 {
+  "brand": {
+    "name": "بنك نوت"
+  },
   "layout": {
     "header": {
+      "label": "مقدمة الصفحة",
       "actions": {
-        "coloTheme": "تغيير وضع الألوان",
-        "language": "تغيير اللغة",
+        "heading": "أوامر سريعة",
+        "changeCountry": "توصيل إلى:",
+        "coloTheme": "وضع الألوان",
+        "language": "اللغة",
         "trackOrder": "تتبع الطلبية",
         "supplier": "كن موردًا"
       },
-      "overview": {},
-      "navigation": {}
+      "overview": {
+        "categories": {
+          "label": "الأصناف",
+          "all": "كل الأصناف",
+          "homeAndFurniture": {
+            "default": "المنزل والأثاث"
+          },
+          "food": {
+            "default": "الأطعمة",
+            "items": {
+              "cannedFood": "الطعام المعلب",
+              "frozenFood": "الطعام المجمد",
+              "syrupsAndFlavors": "العصارات والنكهات",
+              "dairyProducts": "منتجات الألبان",
+              "freshVegetables": "خضروات طازجة",
+              "sweets": "الحلوى"
+            }
+          },
+          "boxes": {
+            "default": "الصناديق"
+          },
+          "wood": {
+            "default": "الأخشاب"
+          },
+          "filling": {
+            "default": "التعبئة"
+          },
+          "fashion": {
+            "default": "الأزياء"
+          },
+          "technologySupplies": {
+            "default": "مستلزمات التقنية"
+          },
+          "bags": {
+            "default": "حواقب"
+          },
+          "healthAndMedicine": {
+            "default": "الصحة والطب"
+          },
+          "cars": {
+            "default": "السيارات"
+          },
+          "accessories": {
+            "default": "المكملات"
+          },
+          "agriculture": {
+            "default": "الزراعة"
+          },
+          "animalsFeeds": {
+            "default": "أطعمة الحيوانات"
+          }
+        },
+        "globalSearch": {
+          "label": "بحث شامل",
+          "placeholder": "ابحث عن منتجات، أصناف، أو علامات تجارية",
+          "toast": "جاري البحث عن '{{value}}'",
+          "submit": "بحث"
+        },
+        "quickNavigation": {
+          "heading": "تنقل سريع",
+          "account": "حسابي",
+          "compare": "مقارنة",
+          "wishlist": "الرغبات",
+          "cart": "العربة"
+        }
+      },
+      "navigation": {
+        "sale": "احصل على خصم {{discountPercentage}} الآن",
+        "heading": "الصفحات الرئيسية",
+        "home": "الرئيسية",
+        "about": "عنا",
+        "shop": "المتجر",
+        "contact": "تواصل",
+        "orders": "الطلبيات"
+      }
     },
-    "footer": {}
+    "footer": {
+      "label": "خاتمة الصفحة",
+      "apps": {
+        "heading": "حمل تطبيقنا",
+        "stores": {
+          "playStore": "متجر جوجل",
+          "appStore": "متجر ابل"
+        }
+      },
+      "contacts": {
+        "heading": "طرق التواصل",
+        "items": {
+          "address": {
+            "label": "العنوان",
+            "placeholder": "106 شارع النيل، الأدوار 5، 6، 9، و10 - الدقي - بمحافظة الجيزة، مصر"
+          },
+          "phone": {
+            "label": "رقم الهاتف",
+            "placeholder": "+(20) 1069269754"
+          },
+          "email": {
+            "label": "البريد الإلكتروني",
+            "placeholder": "info@banknotestore.com"
+          }
+        }
+      },
+      "sitemap": {
+        "heading": "خريطة الموقع",
+        "items": {
+          "store": {
+            "label": "تسوق معنا",
+            "account": "حسابك",
+            "orders": "طلبياتك",
+            "address": "عنوانك"
+          },
+          "help": {
+            "label": "دعنا نساعدك",
+            "contact": "تواصل معنا",
+            "faqs": "الأسئلة الشائعة",
+            "terms": "شروط الخدمة",
+            "privacy": "سياسة الخصوصية"
+          }
+        }
+      },
+      "newsletter": {
+        "heading": "نشرتنا الإخبارية",
+        "description": "اشترك بنشرة الأخبار البريدية لاستقبال أحدث الأخبار عن المنتجات الجديدة والخصومات"
+      },
+      "socialMedia": {
+        "heading": "تابعنا",
+        "items": {
+          "facebook": "فيسبوك",
+          "instagram": "انستاجرام",
+          "whatsapp": "واتساب",
+          "linkedin": "لينكدإن",
+          "tiktok": "تيك توك",
+          "telegram": "تيليجرام"
+        }
+      },
+      "paymentMethods": {
+        "heading": "طرق الدفع",
+        "items": {
+          "visa": "فيزا",
+          "mastercard": "ماستركارد",
+          "paypal": "باي بال",
+          "googlePay": "جوجل باي",
+          "strip": "سترايب",
+          "value": "فاليو",
+          "cash": "نقدًا"
+        }
+      },
+      "copyrights": "حقوق النشر 2025 <0>Banknote</0> جميع الحقوق محفوظة.",
+      "scrollToTop": "صعود للأعلى"
+    }
+  },
+  "pages": {
+    "label": "محتوى الصفحة الرئيسي",
+    "homePage": {}
+  },
+  "forms": {
+    "newsletter": {
+      "fields": {
+        "email": {
+          "placeholder": "عنوان بريدك الإلكتروني",
+          "description": "أرغب في استقبال الأخبار والعروض"
+        }
+      },
+      "submit": "اشترك"
+    },
+    "errors": {
+      "email": "البريد الإلكتروني غير صحيح"
+    }
+  },
+  "hints": {
+    "good": {
+      "newsletter": "'{{email}}' قد اشترك بنجاح في نشرتنا."
+    }
   },
   "types": {
     "colorTheme": {
@@ -19,7 +194,13 @@
       "dark": "الوضع الداكن"
     }
   },
+  "countries": {
+    "eg": "مصر",
+    "sa": "السعودية"
+  },
   "keyWords": {
-    "loading": "جار التحميل"
+    "loading": "جار التحميل",
+    "sale": "خصم",
+    "close": "إغلاق"
   }
 }

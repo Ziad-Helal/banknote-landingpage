@@ -1,4 +1,4 @@
-import { Tooltip as TooltipProvider, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
+import { Tooltip as TooltipProvider, TooltipContent, TooltipTrigger } from "@/components/ui";
 import { forwardRef } from "react";
 import type { ForwardedRef, ReactNode } from "react";
 

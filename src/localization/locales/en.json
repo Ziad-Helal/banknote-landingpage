@@ -1,25 +1,206 @@
 {
+  "brand": {
+    "name": "Banknote"
+  },
   "layout": {
     "header": {
+      "label": "Page Header",
       "actions": {
-        "coloTheme": "Change the color Mode",
-        "language": "Change the language",
+        "heading": "Quick Actions",
+        "changeCountry": "Deliver to:",
+        "coloTheme": "Color Mode",
+        "language": "Language",
         "trackOrder": "Track Order",
         "supplier": "Become a supplier"
       },
-      "overview": {},
-      "navigation": {}
+      "overview": {
+        "categories": {
+          "label": "Categories",
+          "all": "All Categories",
+          "homeAndFurniture": {
+            "default": "Home & Furniture"
+          },
+          "food": {
+            "default": "Food",
+            "items": {
+              "cannedFood": "Canned Food",
+              "frozenFood": "Frozen Food",
+              "syrupsAndFlavors": "Syrups & Flavors",
+              "dairyProducts": "Dairy Products",
+              "freshVegetables": "Fresh Vegetables",
+              "sweets": "Sweets"
+            }
+          },
+          "boxes": {
+            "default": "Boxes"
+          },
+          "wood": {
+            "default": "Wood"
+          },
+          "filling": {
+            "default": "Filling"
+          },
+          "fashion": {
+            "default": "Fashion"
+          },
+          "technologySupplies": {
+            "default": "Technology Supplies"
+          },
+          "bags": {
+            "default": "Bags"
+          },
+          "healthAndMedicine": {
+            "default": "Health And Medicine"
+          },
+          "cars": {
+            "default": "Cars"
+          },
+          "accessories": {
+            "default": "Accessories"
+          },
+          "agriculture": {
+            "default": "Agriculture"
+          },
+          "animalsFeeds": {
+            "default": "Animals Feeds"
+          }
+        },
+        "globalSearch": {
+          "label": "Global Search",
+          "placeholder": "Search for products, categories, or brands",
+          "toast": "Searching for '{{value}}'",
+          "submit": "Search"
+        },
+        "quickNavigation": {
+          "heading": "Quick Navigation",
+          "account": "Account",
+          "compare": "Compare",
+          "wishlist": "Wishlist",
+          "cart": "Cart"
+        }
+      },
+      "navigation": {
+        "sale": "Get {{discountPercentage}} Discount Now",
+        "heading": "Main Navigation",
+        "home": "Home",
+        "about": "About",
+        "shop": "Shop",
+        "contact": "Contact",
+        "orders": "Orders"
+      }
     },
-    "footer": {}
+    "footer": {
+      "label": "Page Footer",
+      "apps": {
+        "heading": "Download App",
+        "stores": {
+          "playStore": "Play Store",
+          "appStore": "App Store"
+        }
+      },
+      "contacts": {
+        "heading": "Contacts",
+        "items": {
+          "address": {
+            "label": "Address",
+            "placeholder": "106 Nile, 5th,6th,9th and 10th floor Ad Doqi A - Dokki - Giza Governorate, Giza, Egypt"
+          },
+          "phone": {
+            "label": "Phone",
+            "placeholder": "+(20) 1069269754"
+          },
+          "email": {
+            "label": "Email",
+            "placeholder": "info@banknotestore.com"
+          }
+        }
+      },
+      "sitemap": {
+        "heading": "Site Map",
+        "items": {
+          "store": {
+            "label": "Shop With Us",
+            "account": "Your Account",
+            "orders": "Your Orders",
+            "address": "Your Address"
+          },
+          "help": {
+            "label": "Let us Help you",
+            "contact": "Contact Us",
+            "faqs": "FAQs",
+            "terms": "Terms Of Service",
+            "privacy": "Privacy Policy"
+          }
+        }
+      },
+      "newsletter": {
+        "heading": "Our Newsletter",
+        "description": "Subscribe to the mailing list to receive updates on the new arrivals and other discounts"
+      },
+      "socialMedia": {
+        "heading": "Follow Us",
+        "items": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "whatsapp": "WhatsApp",
+          "linkedin": "LinkedIn",
+          "tiktok": "TikTok",
+          "telegram": "Telegram"
+        }
+      },
+      "paymentMethods": {
+        "heading": "Payment Accepts",
+        "items": {
+          "visa": "Visa",
+          "mastercard": "Mastercard",
+          "paypal": "PayPal",
+          "googlePay": "Google Pay",
+          "strip": "Stripe",
+          "value": "Value",
+          "cash": "Cash"
+        }
+      },
+      "copyrights": "Copyright 2025 <0>Banknote</0> All rights reserved.",
+      "scrollToTop": "Scroll to top"
+    }
+  },
+  "pages": {
+    "label": "Main Page Content",
+    "homePage": {}
+  },
+  "forms": {
+    "newsletter": {
+      "fields": {
+        "email": {
+          "placeholder": "Your email address",
+          "description": "I would like to receive news and special offers"
+        }
+      },
+      "submit": "Subscribe"
+    },
+    "errors": {
+      "email": "Invalid email address"
+    }
+  },
+  "hints": {
+    "good": {
+      "newsletter": "'{{email}}' is successfully subscribed to our newsletter."
+    }
   },
   "types": {
     "colorTheme": {
       "system": "System Mode",
-      "light": "Light Mode",
+      "light": "White Mode",
       "dark": "Dark Mode"
     }
   },
+  "countries": {
+    "eg": "Egypt",
+    "sa": "Saudi Arabia"
+  },
   "keyWords": {
-    "loading": "Loading"
+    "loading": "Loading",
+    "sale": "Sale",
+    "close": "Close"
   }
 }
