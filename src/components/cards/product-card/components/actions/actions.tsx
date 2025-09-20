@@ -1,6 +1,5 @@
 import { toast } from "sonner";
 import { EyeIcon, GitCompareArrowsIcon, HeartIcon } from "lucide-react";
-import { useTranslation } from "react-i18next";
 import { Button } from "@/components/misc";
 import type { MouseEvent } from "react";
 
@@ -12,8 +11,6 @@ const buttonClassName =
   "rounded-full border-dashed bg-transparent border-accent-foreground text-accent-foreground hover:border-accent-foreground hover:border-solid hover:bg-accent-foreground hover:!text-accent";
 
 export default function Actions({}: Actions_Props) {
-  const { t } = useTranslation();
-
   function addToWishlist_Handler(event: MouseEvent<HTMLButtonElement, globalThis.MouseEvent>) {
     event.preventDefault();
     toast("Wishlist");
