@@ -4,7 +4,7 @@ This is a landing page for Banknote store and it is deployed and live on [this l
 
 ## How To Run The Project Locally
 
-To be able to run this project locally you would have to have **npm** installedon your machine.
+To be able to run this project locally you would have to have **npm** installed on your machine.
 
 **After cloning the project:**
 
