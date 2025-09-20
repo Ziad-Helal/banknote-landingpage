@@ -201,6 +201,9 @@
   "keyWords": {
     "loading": "Loading",
     "sale": "Sale",
-    "close": "Close"
+    "close": "Close",
+    "shopAll": "Shop All",
+    "shopNow": "Shop Now",
+    "add": "Add"
   }
 }

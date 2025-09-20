@@ -8,3 +8,4 @@ export * from "./button";
 export { default as Tooltip } from "./tooltip";
 export { default as Loading } from "./loading";
 export { default as CopyRights } from "./copy-rights";
+export { default as Rating } from "./rating";

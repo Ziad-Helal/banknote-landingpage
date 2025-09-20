@@ -1,3 +1,2 @@
-export * from "./misc";
 export * from "./categories";
 export * from "./products";

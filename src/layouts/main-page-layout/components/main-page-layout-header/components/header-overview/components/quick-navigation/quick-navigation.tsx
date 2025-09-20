@@ -1,5 +1,4 @@
 import { Button } from "@/components/misc";
-import { buttonVariants } from "@/components/ui";
 import { useMediaQuery } from "@/hooks";
 import { cn } from "@/lib/utils";
 import { handleDirectionChange } from "@/localization";
