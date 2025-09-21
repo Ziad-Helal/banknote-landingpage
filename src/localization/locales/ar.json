@@ -166,7 +166,10 @@
   },
   "pages": {
     "label": "محتوى الصفحة الرئيسي",
-    "homePage": {}
+    "notFound": {
+      "statement": "الصفحة التي تبحث عنها غير موجودة",
+      "callToAction": "ارجع للخلف"
+    }
   },
   "forms": {
     "newsletter": {

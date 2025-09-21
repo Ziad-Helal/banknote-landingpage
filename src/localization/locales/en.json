@@ -166,7 +166,10 @@
   },
   "pages": {
     "label": "Main Page Content",
-    "homePage": {}
+    "notFound": {
+      "statement": "The page you are looking for does not exist",
+      "callToAction": "Go Back"
+    }
   },
   "forms": {
     "newsletter": {
