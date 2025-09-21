@@ -78,10 +78,14 @@ export default function Carousel({
       </CarouselContent>
       {navigation && (
         <div
-          className={cn(
-            "*:static *:-translate-y-8 *:rounded *:border-primary *:text-muted-foreground [&_svg]:!size-6 w-fit flex gap-2 absolute bottom-full",
-            handleDirectionChange(i18n.dir(), "right-0", "left-0 [&_svg]:rotate-180")
-          )}
+          className={
+            isGeneralSection
+              ? cn(
+                  "*:static *:-translate-y-8 *:rounded *:border-primary *:text-muted-foreground [&_svg]:!size-6 w-fit flex gap-2 absolute bottom-full",
+                  handleDirectionChange(i18n.dir(), "right-0", "left-0 [&_svg]:rotate-180")
+                )
+              : ""
+          }
         >
           <CarouselPrevious />
           <CarouselNext />

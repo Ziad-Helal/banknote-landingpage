@@ -17,7 +17,7 @@ npm run dev
 
 - Then, open the link **http://localhost:3000/** in your browser.
 
-> You can run the project on another machine connected to the same network of the origin machine, by goint to the the url you see in the terminal. It look like **http://192.168.1.109:3000/**
+> You can run the project on another machine connected to the same network of the origin machine, by goint to the the url you see in the terminal. It looks like **http://192.168.1.109:3000/**
 
 ## Features
 
