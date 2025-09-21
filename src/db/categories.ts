@@ -52,7 +52,7 @@ export const categories = [
   {
     id: "c11",
     category: { en: "Animals Feed", ar: "أطعمة الحيوانات" },
-    image: "/images/categories/animals-feed.png",
+    image: "/images/categories/animal-feed.png",
   },
   {
     id: "c12",
@@ -62,7 +62,7 @@ export const categories = [
   {
     id: "c13",
     category: { en: "Metals", ar: "معادن" },
-    image: "/images/categories/Metals.png",
+    image: "/images/categories/metals.png",
   },
   {
     id: "c14",
@@ -218,3 +218,23 @@ export const subcategories = {
     ],
   },
 };
+
+export const heroSaleCategory = {
+  id: "cc25",
+  category: { en: "Handmade carpets", ar: "سجاجيد يدوية الصنع" },
+  description: { en: "You can add a vintage touch with a handwoven rug.", ar: "يمكنك اضافة لمسة سحرية مع السجاجيد يدوية الصنع." },
+  image: "/images/sale.png",
+  percentage: 20,
+};
+
+export const heroSpecialOfferCategories = [
+  { id: "cc26", image: "images/categories/subcategories/cc26.png" },
+  { id: "cc27", image: "images/categories/subcategories/cc27.png" },
+  { id: "cc28", image: "images/categories/subcategories/cc28.png" },
+  { id: "cc29", image: "images/categories/subcategories/cc29.png" },
+  { id: "cc30", image: "images/categories/subcategories/cc30.png" },
+  { id: "cc31", image: "images/categories/subcategories/cc31.png" },
+  { id: "cc32", image: "images/categories/subcategories/cc32.png" },
+  { id: "cc33", image: "images/categories/subcategories/cc33.png" },
+  { id: "cc34", image: "images/categories/subcategories/cc34.png" },
+];

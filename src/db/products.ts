@@ -106,7 +106,7 @@ export const products = {
     category: { en: "Beauty Picks", ar: "مختارات الجمال" },
     products: [
       {
-        id: "p1",
+        id: "p7",
         name: { en: "Revana Tomato Sauce 800gm", ar: "صلصة طماطم ريفانا 800جرام" },
         price: {
           beforeDiscount: 150,
@@ -115,10 +115,10 @@ export const products = {
           afterDiscount: 150,
         },
         rating: 4,
-        image: "/images/products/p1.png",
+        image: "/images/products/p7.png",
       },
       {
-        id: "p2",
+        id: "p8",
         name: { en: "Revana Tomato Sauce 800gm", ar: "صلصة طماطم ريفانا 800جرام" },
         price: {
           beforeDiscount: 200,
@@ -127,10 +127,10 @@ export const products = {
           afterDiscount: 200,
         },
         rating: 4,
-        image: "/images/products/p2.png",
+        image: "/images/products/p8.png",
       },
       {
-        id: "p3",
+        id: "p9",
         name: { en: "Revana Tomato Sauce 800gm", ar: "صلصة طماطم ريفانا 800جرام" },
         price: {
           beforeDiscount: 180,
@@ -139,10 +139,10 @@ export const products = {
           afterDiscount: 180,
         },
         rating: 4,
-        image: "/images/products/p3.png",
+        image: "/images/products/p9.png",
       },
       {
-        id: "p4",
+        id: "p10",
         name: { en: "Revana Tomato Sauce 800gm", ar: "صلصة طماطم ريفانا 800جرام" },
         price: {
           beforeDiscount: 240,
@@ -151,10 +151,10 @@ export const products = {
           afterDiscount: 240,
         },
         rating: 4,
-        image: "/images/products/p4.png",
+        image: "/images/products/p10.png",
       },
       {
-        id: "p5",
+        id: "p11",
         name: { en: "Revana Tomato Sauce 800gm", ar: "صلصة طماطم ريفانا 800جرام" },
         price: {
           beforeDiscount: 230,
@@ -163,10 +163,10 @@ export const products = {
           afterDiscount: 230,
         },
         rating: 4,
-        image: "/images/products/p5.png",
+        image: "/images/products/p11.png",
       },
       {
-        id: "p6",
+        id: "p12",
         name: { en: "Revana Tomato Sauce 800gm", ar: "صلصة طماطم ريفانا 800جرام" },
         price: {
           beforeDiscount: 190,
@@ -175,7 +175,7 @@ export const products = {
           afterDiscount: 190,
         },
         rating: 4,
-        image: "/images/products/p6.png",
+        image: "/images/products/p12.png",
       },
     ],
   },
@@ -184,7 +184,7 @@ export const products = {
     category: { en: "Featured Grocery Products", ar: "مواد بقالة مميزة" },
     products: [
       {
-        id: "p1",
+        id: "p13",
         name: { en: "Revana Tomato Sauce 800gm", ar: "صلصة طماطم ريفانا 800جرام" },
         price: {
           beforeDiscount: 150,
@@ -193,10 +193,10 @@ export const products = {
           afterDiscount: 150,
         },
         rating: 4,
-        image: "/images/products/p1.png",
+        image: "/images/products/p13.png",
       },
       {
-        id: "p2",
+        id: "p14",
         name: { en: "Revana Tomato Sauce 800gm", ar: "صلصة طماطم ريفانا 800جرام" },
         price: {
           beforeDiscount: 200,
@@ -205,10 +205,10 @@ export const products = {
           afterDiscount: 200,
         },
         rating: 4,
-        image: "/images/products/p2.png",
+        image: "/images/products/p14.png",
       },
       {
-        id: "p3",
+        id: "p15",
         name: { en: "Revana Tomato Sauce 800gm", ar: "صلصة طماطم ريفانا 800جرام" },
         price: {
           beforeDiscount: 180,
@@ -217,10 +217,10 @@ export const products = {
           afterDiscount: 180,
         },
         rating: 4,
-        image: "/images/products/p3.png",
+        image: "/images/products/p15.png",
       },
       {
-        id: "p4",
+        id: "p16",
         name: { en: "Revana Tomato Sauce 800gm", ar: "صلصة طماطم ريفانا 800جرام" },
         price: {
           beforeDiscount: 240,
@@ -229,10 +229,10 @@ export const products = {
           afterDiscount: 240,
         },
         rating: 4,
-        image: "/images/products/p4.png",
+        image: "/images/products/p16.png",
       },
       {
-        id: "p5",
+        id: "p17",
         name: { en: "Revana Tomato Sauce 800gm", ar: "صلصة طماطم ريفانا 800جرام" },
         price: {
           beforeDiscount: 230,
@@ -241,10 +241,10 @@ export const products = {
           afterDiscount: 230,
         },
         rating: 4,
-        image: "/images/products/p5.png",
+        image: "/images/products/p17.png",
       },
       {
-        id: "p6",
+        id: "p18",
         name: { en: "Revana Tomato Sauce 800gm", ar: "صلصة طماطم ريفانا 800جرام" },
         price: {
           beforeDiscount: 190,
@@ -253,8 +253,128 @@ export const products = {
           afterDiscount: 190,
         },
         rating: 4,
-        image: "/images/products/p6.png",
+        image: "/images/products/p18.png",
       },
     ],
+  },
+};
+
+export const saleProducts = {
+  productsWithDiscounts: {
+    id: "ccc4",
+    category: { en: "Products With Discounts", ar: "سلع بخصومات" },
+    products: [
+      {
+        id: "p19",
+        name: { en: "Holdin' You Tight Hair Gel for Curly and Wavy Hair", ar: "أفضل جل للشعر المجعد والمموج" },
+        price: {
+          beforeDiscount: 275,
+          discountPercentage: 20,
+          discount: 55,
+          afterDiscount: 220,
+        },
+        rating: 4,
+        image: "/images/products/p19.png",
+      },
+      {
+        id: "p20",
+        name: { en: "Holdin' You Tight Hair Gel for Curly and Wavy Hair", ar: "أفضل جل للشعر المجعد والمموج" },
+        price: {
+          beforeDiscount: 275,
+          discountPercentage: 20,
+          discount: 55,
+          afterDiscount: 220,
+        },
+        rating: 4,
+        image: "/images/products/p20.png",
+      },
+      {
+        id: "p21",
+        name: { en: "Holdin' You Tight Hair Gel for Curly and Wavy Hair", ar: "أفضل جل للشعر المجعد والمموج" },
+        price: {
+          beforeDiscount: 337.5,
+          discountPercentage: 20,
+          discount: 67.5,
+          afterDiscount: 270,
+        },
+        rating: 4,
+        image: "/images/products/p21.png",
+      },
+      {
+        id: "p22",
+        name: { en: "Holdin' You Tight Hair Gel for Curly and Wavy Hair", ar: "أفضل جل للشعر المجعد والمموج" },
+        price: {
+          beforeDiscount: 275,
+          discountPercentage: 20,
+          discount: 55,
+          afterDiscount: 220,
+        },
+        rating: 4,
+        image: "/images/products/p22.png",
+      },
+      {
+        id: "p23",
+        name: { en: "Holdin' You Tight Hair Gel for Curly and Wavy Hair", ar: "أفضل جل للشعر المجعد والمموج" },
+        price: {
+          beforeDiscount: 337.5,
+          discountPercentage: 20,
+          discount: 67.5,
+          afterDiscount: 270,
+        },
+        rating: 4,
+        image: "/images/products/p23.png",
+      },
+      {
+        id: "p24",
+        name: { en: "Holdin' You Tight Hair Gel for Curly and Wavy Hair", ar: "أفضل جل للشعر المجعد والمموج" },
+        price: {
+          beforeDiscount: 275,
+          discountPercentage: 20,
+          discount: 55,
+          afterDiscount: 220,
+        },
+        rating: 4,
+        image: "/images/products/p24.png",
+      },
+    ],
+    featuredProducts: [
+      {
+        id: "s1",
+        name: { en: "Your Biggest Flex Leave-In Conditioner for Curly Hair", ar: "الشامبو الأكبر للتغذية للشعر المجعد" },
+        price: {
+          beforeDiscount: 316.5,
+          discountPercentage: 20,
+          discount: 62.5,
+          afterDiscount: 250,
+        },
+        rating: 4,
+        image: "/images/products/s1.png",
+      },
+      {
+        id: "s2",
+        name: { en: "OLLANO Anti Hair Loss Lotion", ar: "الشامبو الأكبر للتغذية للشعر المجعد" },
+        price: {
+          beforeDiscount: 362.5,
+          discountPercentage: 20,
+          discount: 72.5,
+          afterDiscount: 290,
+        },
+        rating: 4,
+        image: "/images/products/s2.png",
+      },
+      {
+        id: "s3",
+        name: { en: "Your Biggest Flex Leave-In Conditioner for Curly Hair", ar: "الشامبو الأكبر للتغذية للشعر المجعد" },
+        price: {
+          beforeDiscount: 316.5,
+          discountPercentage: 20,
+          discount: 62.5,
+          afterDiscount: 250,
+        },
+        rating: 4,
+        image: "/images/products/s3.png",
+      },
+    ],
+    due: new Date("2025-12-31"),
   },
 };

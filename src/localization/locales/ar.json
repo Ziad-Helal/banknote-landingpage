@@ -198,12 +198,45 @@
     "eg": "مصر",
     "sa": "السعودية"
   },
+  "dateAndTime": {
+    "days_zero": "{{count}} أيام",
+    "days_one": "يوم واحد",
+    "days_two": "يومان",
+    "days_few": "{{count}} أيام",
+    "days_many": "{{count}} يومًا",
+    "days_other": "{{count}} يومًا",
+    "hours_zero": "{{count}} ساعات",
+    "hours_one": "ساعة واحدة",
+    "hours_two": "ساعتان",
+    "hours_few": "{{count}} ساعات",
+    "hours_many": "{{count}} ساعة",
+    "hours_other": "{{count}} ساعة",
+    "minutes_zero": "{{count}} دقائق",
+    "minutes_one": "دقيقة واحدة",
+    "minutes_two": "دقيقتان",
+    "minutes_few": "{{count}} دقائق",
+    "minutes_many": "{{count}} دقيقة",
+    "minutes_other": "{{count}} دقيقة",
+    "seconds_zero": "{{count}} ثوان",
+    "seconds_one": "ثانية واحدة",
+    "seconds_two": "ثانيتان",
+    "seconds_few": "{{count}} ثوان",
+    "seconds_many": "{{count}} ثانية",
+    "seconds_other": "{{count}} ثانية"
+  },
   "keyWords": {
     "loading": "جار التحميل",
     "sale": "خصم",
     "close": "إغلاق",
     "shopAll": "تسوق الكل",
     "shopNow": "تسوق الآن",
-    "add": "أضف"
+    "add": "أضف",
+    "only": "فقط",
+    "wishlist": "الرغبات",
+    "compare": "مقارنة",
+    "details": "التفاصيل",
+    "off": "خصم",
+    "liveChat": "محادثة حية",
+    "specialOffer": "<0>عرض</0><1>خاص<1/>"
   }
 }

@@ -10,3 +10,4 @@ export * from "./accordion";
 export * from "./separator";
 export * from "./label";
 export * from "./form";
+export * from "./carousel";

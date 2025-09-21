@@ -198,12 +198,45 @@
     "eg": "Egypt",
     "sa": "Saudi Arabia"
   },
+  "dateAndTime": {
+    "days_zero": "{{count}} Days",
+    "days_one": "{{count}} Day",
+    "days_two": "{{count}} Days",
+    "days_few": "{{count}} Days",
+    "days_many": "{{count}} Days",
+    "days_other": "{{count}} Days",
+    "hours_zero": "{{count}} Hours",
+    "hours_one": "{{count}} Hour",
+    "hours_two": "{{count}} Hours",
+    "hours_few": "{{count}} Hours",
+    "hours_many": "{{count}} Hours",
+    "hours_other": "{{count}} Hours",
+    "minutes_zero": "{{count}} Minutes",
+    "minutes_one": "{{count}} Minute",
+    "minutes_two": "{{count}} Minutes",
+    "minutes_few": "{{count}} Minutes",
+    "minutes_many": "{{count}} Minutes",
+    "minutes_other": "{{count}} Minutes",
+    "seconds_zero": "{{count}} Seconds",
+    "seconds_one": "{{count}} Second",
+    "seconds_two": "{{count}} Seconds",
+    "seconds_few": "{{count}} Seconds",
+    "seconds_many": "{{count}} Seconds",
+    "seconds_other": "{{count}} Seconds"
+  },
   "keyWords": {
     "loading": "Loading",
     "sale": "Sale",
     "close": "Close",
     "shopAll": "Shop All",
     "shopNow": "Shop Now",
-    "add": "Add"
+    "add": "Add",
+    "only": "Only",
+    "wishlist": "Wishlist",
+    "compare": "Compare",
+    "details": "Details",
+    "off": "Off",
+    "liveChat": "Live Chat",
+    "specialOffer": "<0>Special</0><1>Offer<1/>"
   }
 }
