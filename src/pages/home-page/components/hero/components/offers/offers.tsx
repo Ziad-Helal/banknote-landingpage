@@ -15,7 +15,7 @@ export default function Offers() {
       <div className="relative rounded-xl overflow-hidden bg-[url(/images/sale-bg.png)] bg-no-repeat bg-center">
         <Carousel
           carouselClassName="h-full py-15"
-          contentClassName="md:h-[316.25px]"
+          contentClassName="h-[326.75px] md:h-[316.25px]"
           align="center"
           slideBasis="basis-1/3 min-[480px]:basis-[20%] md:basis-1/4 lg:basis-1/5"
           activeSlideBasis="!basis-1/2 min-[480px]:!basis-[25%] md:!basis-1/3 lg:!basis-1/4"
